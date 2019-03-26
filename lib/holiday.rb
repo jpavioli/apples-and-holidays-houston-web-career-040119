@@ -85,7 +85,7 @@ def all_holidays_with_bbq(holiday_hash)
           if data.include? "BBQ"
             puts holiday
           end
-          puts holiday
+          puts holiday[data]
       end
     end
   end
