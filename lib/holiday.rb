@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season,holiday|
     holiday.each do |array|
       array.any? "BBQ" 
-      puts holiday_hash[:season][:holiday]
+      puts "THIS"
     end
   end
 end
