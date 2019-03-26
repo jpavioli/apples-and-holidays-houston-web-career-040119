@@ -83,6 +83,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |array, data|
       array.include? "BBQ" 
       puts holiday_hash[:season][:holiday]
+    end
   end
 end
 
