@@ -83,7 +83,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |data_array|
       data_array.each do |values|
         if (values == "BBQ")
-           puts holiday_hash[:season][:holiday]
+           puts holiday_hash[:season][:holiday][:values]
         end
       end
     end
