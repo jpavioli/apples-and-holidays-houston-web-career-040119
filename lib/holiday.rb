@@ -82,10 +82,9 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season,holiday|
     holiday.each do |array|
       !holiday_hash[:season][:holiday].include? "BBQ"
-        puts !holiday_hash[:season][:holiday]
+        puts "#{!holiday_hash[:season][:holiday]}"
       end
     end
   end
 end
-end 
 
