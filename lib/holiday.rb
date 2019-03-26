@@ -83,7 +83,6 @@ def all_holidays_with_bbq(holiday_hash)
     season.each do |holiday_,supplies|
       supplies.includes? "BBQ"
         puts holiday
-      end
     end 
   end
 end
