@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
       nice_formatting.each do |i|
         i.capitalize
       end
-      puts "  #{nice_formatting.join(" "}: #{data.join(", ")}"
+      puts "  #{nice_formatting.join(" ")}: #{data.join(", ")}"
     end
   end
   
