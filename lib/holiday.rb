@@ -83,7 +83,6 @@ def all_holidays_with_bbq(holiday_hash)
     season.each do |holiday|
       holiday.any? {|supply| supply == "BBQ"}
         puts holiday
-      end
     end
   end
 
