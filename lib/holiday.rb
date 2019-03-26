@@ -84,7 +84,6 @@ def all_holidays_with_bbq(holiday_hash)
       data.include? "BBQ" 
         puts holiday
     end
-    end
   end
 end
 
