@@ -79,10 +79,11 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-  holiday_hash.each do |season,holiday,array|
-    holiday.recurse(:holiday,:array).include? "BBQ"
-      puts holiday.recurse(:holiday)
-    end
+  holiday_hash.each do |season,holiday|
+    season.each do |holiday,supplies|
+      supplies.include? "BBQ"
+        puts holiday
+      end
+    end 
   end
 end
-end 
